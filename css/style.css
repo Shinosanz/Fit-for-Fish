@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://media.giphy.com/media/ybS1OrcdFZzvz3VFS9/giphy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#head .line-down{
+    height: 5vh;
+    width: 0.5px;
+    margin-top: 5px;
+}
+#head{
+    position: fixed;
+    width: 100%;
+}
+
+#home{
+    text-align: center;
+}
+.container{
+    background-color: hsl(0, 100%, 100%, 70%);
+    padding-top: 10vh;
+    height: 95vh;
+}
