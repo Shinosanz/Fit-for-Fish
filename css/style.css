@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://media.giphy.com/media/ybS1OrcdFZzvz3VFS9/giphy.gif);
+    background-image: url(/pictures/Bg.gif);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,9 +16,11 @@ body{
 
 #home{
     text-align: center;
+    height: 95vh;
 }
 .container{
     background-color: hsl(0, 100%, 100%, 70%);
     padding-top: 10vh;
-    height: 95vh;
+    
+    
 }
