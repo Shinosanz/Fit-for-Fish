@@ -17,7 +17,7 @@ body{
     width: 0.5px;
 }
 #head{
-    background-color: hsl(0, 100%, 100%, 30%);
+    background-color: hsl(0, 100%, 100%, 60%);
     text-align: center;
 }
 
@@ -35,4 +35,12 @@ body{
 ol{
     margin: 0;
     padding-inline-start: 6em;
+}
+
+.img-hover{
+    transition: .2s;
+    z-index: 0;
+}
+.img-hover:hover{
+    transform: scale(1.1);
 }
