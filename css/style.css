@@ -3,6 +3,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: initial;
 }
 
 #head .line-down{
@@ -12,6 +13,7 @@ body{
     position: fixed;
     width: 100%;
     box-shadow: 0px 3px 5px;
+    z-index: 100;
 }
 
 #home{
@@ -21,6 +23,11 @@ body{
 .container{
     background-color: hsl(0, 100%, 100%, 70%);
     padding-top: 10vh;
-    
-    
+}
+.detail{
+    font-size: 14px;
+}
+ol{
+    margin: 0;
+    padding-inline-start: 6em;
 }
