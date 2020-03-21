@@ -43,3 +43,14 @@ ol{
 .img-hover:hover{
     transform: scale(1.1);
 }
+
+/* index */
+#state[state="hot"], #effect[effect="hot"]{
+    color: hsl(0, 100%, 50%);
+}
+#state[state="safe"], #effect[effect="safe"]{
+    color: hsl(120, 30%, 50%);
+}
+#state[state="cold"], #effect[effect="cold"]{
+    color: hsl(220, 100%, 50%);
+}
