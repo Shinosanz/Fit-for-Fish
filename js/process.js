@@ -1,4 +1,4 @@
-fetch("https://api.thingspeak.com/channels/509782/fields/1/last.txt")
+fetch("https://api.thingspeak.com/channels/1024701/fields/1/last.txt")
 .then( response => response.text())
 .then( text => temperature(text))
 
