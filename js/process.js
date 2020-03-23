@@ -21,7 +21,7 @@ function temperature(tem){
     else
     {
         document.getElementById('state').innerHTML = "ร้อนเกินไป";
-        document.getElementById('effect').innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ทำให้ปลาอยากอาหารมากขึ้น และอาจส่งผลให้ปลาอยากอาหารมากเกินไปและอาจทำให้ปลาช็อคตายได้";
+        document.getElementById('effect').innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ทำให้ปลาอยากอาหารมากขึ้น อีกทั้งอาจส่งผลให้ปลาอยากอาหารมากเกินไปและอาจทำให้ปลาช็อคตายได้";
         state.setAttribute("state", "hot");
     }
 }
