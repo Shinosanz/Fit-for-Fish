@@ -17,7 +17,7 @@ function temperature(tem){
     else if(tem < 30)
     {
         document.getElementById('state').innerHTML = "ปลอดภัย";
-        document.getElementById('effect').innerHTML = "ปลาสามารถอยู่ได้อย่างปลอดภัย";
+        document.getElementById('effect').innerHTML = "อุณหภูมิ ณ ขณะนี้ปลาสามารถอยู่อาศัยได้อย่างปลอดภัย";
         state.setAttribute("state", "safe");
         pic_state.setAttribute("src", "pictures/safe.png");
     }
