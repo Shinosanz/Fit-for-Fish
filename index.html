@@ -22,14 +22,14 @@
             <div class="col-3"></div>
             <div class="col-6" style="text-align: center;">
                 <h4>Now temperature(<sup><sup>o</sup></sup>C)</h4>
-                <input id="result" class="w-50" type="number" readonly style="text-align: center;">
+                <input id="result" class="w-50" readonly style="text-align: center;">
                 <br><br>
-                <button onclick="location.reload();">Refresh</button>
+                <button onclick="location.reload();" class="btn btn-dark">Refresh</button>
                 <br><br>
                 <div style="width: 100%;">
                     <h5 style="display: inline;">State: </h5><p id="state" state="cold" style="display: inline;"></p> 
                 </div>
-                <img width="20%" src="pictures/github.png" alt="Fish state" style="margin-top: 1rem;">
+                <img id="pic-state" width="20%" src="pictures/github.png" alt="Fish state" style="margin-top: 1rem;">
                 <hr>
                 <div style="width: 100%;">
                     <h5>Effect</h5><p id="effect" style="text-align: justify;"></p>
