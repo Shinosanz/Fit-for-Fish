@@ -9,7 +9,7 @@ function temperature(tem){
     console.log(tem);
     if(tem < 26)
     {
-        document.getElementById('state').innerHTML = "อันตราย";
+        document.getElementById('state').innerHTML = "เย็นเกินไป";
         document.getElementById('effect').innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อุณหภูมิ ณ ขณะนี้อาจทำให้ปลามีภูมิต้านทานโรคน้อยลง อาจติดโรคได้ง่ายและถ้าหากอุณหภูมิเปลี่ยนแบบกังทันหันอาจทำให้ปลาช็อคตายได้";
         state.setAttribute("state", "cold");
         pic_state.setAttribute("src", "pictures/cold.png");

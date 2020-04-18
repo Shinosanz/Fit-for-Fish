@@ -56,6 +56,15 @@ ol{
     margin: 0;
     padding-inline-start: 6em;
 }
+.img-a1{
+    width: 40%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.img-a1:hover{
+    width: 100%;
+}
 
 /* Developer */
 .img-hover{
